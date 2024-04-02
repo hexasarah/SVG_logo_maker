@@ -1,0 +1,70 @@
+# SVG Logo Maker
+
+A Node.js command-line application that generates simple logos as SVG files.
+
+## Table of Contents
+
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Walkthrough Video](#walkthrough-video) NEED TO UPDATE
+- [Sample SVG](#sample-svg)
+- [Tests](#tests)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
+The SVG Logo Maker is a command-line application designed for freelance web developers who need simple logos for their projects without relying on graphic designers. With this application, users can easily generate logos by providing text, text color, shape, and shape color inputs. The generated logo is saved as an SVG file, which can be opened in any web browser for viewing.
+
+## Features
+
+- Prompts users for text, text color, shape, and shape color inputs.
+- Supports shapes such as circle, triangle, and square.
+- Generates an SVG file based on user inputs.
+- Supports both color keywords and hexadecimal color codes.
+- Provides a simple and intuitive command-line interface.
+
+## Installation
+
+To use the SVG Logo Maker, you need to have Node.js installed on your computer. Clone this repository and navigate to the project directory in your terminal. Then, install the dependencies using the following command:
+
+npm install
+
+
+## Usage
+
+After installing the dependencies, you can run the application using the following command:
+
+node index.js
+
+
+Follow the prompts to enter text, text color, shape, and shape color inputs. Once you've entered all the inputs, the application will generate an SVG file named `logo.svg` in the project directory.
+
+## Walkthrough Video
+
+[Link to Walkthrough Video](#) - (NEED TO UPDATE)
+
+Watch this video to see how to use the SVG Logo Maker and view all tests passing.
+
+## Sample SVG
+
+![Sample SVG](examples/logo.svg)
+
+Above is an example of a sample SVG file generated using the SVG Logo Maker.
+
+## Tests
+
+This project uses Jest for unit testing. To run the tests, use the following command:
+
+npm test
+
+
+## Contributing
+
+Contributions are welcome! If you have any ideas, suggestions, or improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
